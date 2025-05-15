@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OportuniJovem</title>
+  <link rel="website icon" type="image/png" href="img/Background Eraser (1).png">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/barra/barra.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">OportuniJovem.</a>
+
+    <div id="searchContainer" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Digite o cargo, como 'desenvolvedor'..." />
+      <button onclick="searchJobs()">Buscar</button>
+    </div>
+  </header>
+  
+<a href="/index.html" class="voltar-btn">⬅ Voltar</a>
+
+
+  <!-- Container de Resultados -->
+  <div class="container">
+    <h1>Vagas</h1>
+    <div id="results"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/barra/barra.js"></script>
+</body>
+</html>
